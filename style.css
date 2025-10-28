@@ -1,0 +1,17 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+#hero {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#typing-text {
+  font-size: 1.3rem;
+  min-height: 30px;
+  color: #555;
+}
