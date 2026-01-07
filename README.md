@@ -45,7 +45,7 @@ I build **responsive, modern, and interactive websites** using HTML, CSS, JavaSc
 ## 📬 Contact & Connect
 
 - **Email:** [priyawebdev@example.com](mailto:priyawebdev@example.com)  
-- **GitHub:** [github.com/priyasharma](https://github.com/priyasharma188)  
+- **GitHub:** [github.com/priyasharma188](https://github.com/priyasharma188)  
 - **LinkedIn:** [linkedin.com/in/priya-priya-webdeveloper](www.linkedin.com/in/priya-priya-webdeveloper) 
 - **Portfolio Live:** [your-portfolio-link](#)
 
