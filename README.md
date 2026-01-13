@@ -1,8 +1,5 @@
 # 👩‍💻 Priya | Web Developer Portfolio
 
-[![Portfolio](<img width="1343" height="545" alt="image" src="https://github.com/user-attachments/assets/429acb5e-5f65-413a-a70f-c3dc935cc431" /><img width="1339" height="636" alt="image" src="https://github.com/user-attachments/assets/1d8be880-d6d4-42e0-b84c-ab3af4245fe8" /><img width="1340" height="361" alt="image" src="https://github.com/user-attachments/assets/3881a88d-534d-4d95-9106-78227edd9c67" />
- 
-
 )](https://github.com/priyasharma188/my-portfolio)
 
 Welcome to my personal **web developer portfolio**!  
