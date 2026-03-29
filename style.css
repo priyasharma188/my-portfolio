@@ -1,17 +1,72 @@
 body {
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
+  background-color: #0f172a;
+  color: #e2e8f0;   /* soft white, pure white nahi */
+
 }
 
-#hero {
-  min-height: 60vh;
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  padding :0 50px;
+}
+ 
+.hero h1{
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 22px;
+  margin-bottom: 30px;
+} 
+
+#img{
+  margin-top: 20px;
+  transition: 0.3s ease;
+}
+
+#img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(19, 25, 31, 0.8);
 }
 
 #typing-text {
   font-size: 1.3rem;
   min-height: 30px;
   color: #555;
+}
+.transparent-header{
+background: transparent;
+}
+
+.nav-link, .navbar-brand{
+color: white !important;
+}
+.skill-box{
+padding:20px;
+border:1px solid #ccc;
+text-align:center;
+transition:0.3s;
+cursor:pointer;
+}
+
+/* Hover Effect */
+.skill-box:hover{
+background-color:#0d6efd;
+color:white;
+transform:scale(1.05);
+}
+.light{
+position:fixed;
+width:300px;
+height:300px;
+border-radius:50%;
+pointer-events:none;
+background:radial-gradient(circle, rgba(255,255,255,0.5) 0%, transparent 60%);
+transform:translate(-50%,-50%);
 }
