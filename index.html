@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
      <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css"/>
 </head>
@@ -13,8 +15,9 @@
     <header>
         <nav class="navbar navbar-expand-lg transparent-header sticky-top">
     <div class="container">
+
         <a class="navbar-brand text-white" href="#">Priya</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" >
         <span class="navbar-toggler-icon"></span>
           </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -32,66 +35,229 @@
  <div class="light"></div>
  <section class="hero">
   <div class="hero-text">
-        <h1 class="typing">Hi, I'm Priya </h1>
-        <p>Frontend Developer |Future Full Stack Development</p>
-        <a href="#projects" class="btn btn-outline-light">View Projects</a>
-        <a href="#contact" class="btn btn-outline-light">Contact Me</a>
+        <h4 class="typing">Hi, I'm Priya</h4>
+        <h1>Frontend Developer |Future Full Stack Development</h1>
+        <p>Passionate about creating beautiful and functional websites. Learning modern web technologies and building projects to bring creative ideas to life.</p>
+        <div class="hero-buttons">
+           <ul class="contact-list">
+               <li>
+                  <a href="mailto:priya91678@gmail.com"><i class="bi bi-envelope" width="60px" height="60px">
+               </i>
+                 </a>
+              </li>
+
+               <li>
+                  <a href="https://github.com/priyasharma188"><i class="bi bi-github" width="60px" height="60px">
+                   </i>
+                 </a>
+              </li>
+
+              <li>
+                   <a href="https://www.linkedin.com/in/priya-priya-webdeveloper"><i class="bi bi-linkedin" width="60px" height="60px"></i>
+              </a>
+              </li>
+        </ul>
         </div>
+
+               <a href="#projects" class="btn  btn-project btn-secondary">View Projects</a>
+               <a href="#contact" class="btn btn-outline-light">Contact Me</a>
+        </div>
+          </div>
+       
+        
          <div class="hero-image">
-             <img src=".//priyaSharma.jpeg" alt="profile-photo"  width="350px" class="rounded-circle" id="img">
+             <img src=".//priyaSharma.jpeg" alt="profile-photo"  width="350px" class="rounded-circle img">
      </div>
  </section>
 
          <!---about section--->
      <section id="about" class="py-5">
-    <div class="container">
-      <h2 class="text-center text-primary mb-4" data-aos="fade-up">About Me</h2>
-      <p class="text-center lead">
-        I'm Priya, a passionate web developer who loves turning creative ideas into beautiful and functional websites.
-        Currently exploring full-stack development and modern web technologies.
+       <h2 class="text-center about-section mb-4" data-aos="fade-up">About Me</h2>
+    <div class="container-about">
+      
+      <p class="text-center lead mb-4">
+       I'm a passionate web development student currently pursuing my degree in Computer Science. I'm dedicated to learning and mastering modern web technologies like HTML5, CSS3, JavaScript, and responsive design.  
+       <br>
+       <br>
+       Through my coursework and personal projects, I've developed a strong foundation in front-end development and design principles. I enjoy creating clean, user-friendly websites that look great on all devices.
+       <br>
+       <br>
+       When I'm not studying, you'll find me building personal projects, learning new design tools like Figma, and staying updated with the latest web development trends.
       </p>
-    </div>
+</div>
+      <div class="personal-qualities mt-4" data-aos="zoom-in">
+        <ul>
+          <li data-aos="fade-up" class="box1">
+            <h3>Continuous Learning</h3>
+            <p>Always eager to learn new technologies and improve my skills</p>
+          </li>
+          <li data-aos="fade-up" class="box2">
+            <h3>Creative Problem Solver</h3>
+            <p>Ability to think outside the box and find innovative solutions</p>
+          </li>
+          <li data-aos="fade-up" class="box3">
+            <h3>Goal Oriented</h3>
+            <p>Experienced in working effectively within diverse teams to achieve common goals</p>
+          </li>
+        </ul>
+      </div>
   </section>
                <!--Skills section-->
-           <section id="skills" class="py-5 bg-dark text-white" data-aos="zoom-in">
+           <section id="skills" class="py-5  text-white" data-aos="zoom-in">
               <div class="container">
-                   <h2 class="text-center text-primary mb-4" data-aos="fade-up">My Skills</h2>
+                   <h2 class="text-center mb-4" data-aos="fade-up">Skills & Technologies</h2>
                 <div class="row text-center">
-                   <div class="col-md-3 mb-3"><div class="p-3 border rounded card bg-dark text-white skill-box">HTML5</div></div>
-                   <div class="col-md-3 mb-3"><div class="p-3 border rounded card bg-dark text-white skill-box">CSS3</div></div>
-                   <div class="col-md-3 mb-3"><div class="p-3 border rounded card bg-dark text-white skill-box">javaScript</div></div>
-                   <div class="col-md-3"><div class="p-3 border rounded card bg-dark text-white skill-box">Responsive Design</div></div>
+                   <div class="col-md-3 mb-3">
+                    <div class="p-3 border rounded card bg-dark text-white skill-box" data-aos="fade-up">
+                      <i class="devicon-html5-plain colored"></i>
+                      HTML5
+                     </div>
+                    </div>
+
+                   <div class="col-md-4 mb-3">
+                    <div class="p-3 border rounded card bg-dark text-white skill-box" data-aos="fade-up">
+                    <i class="devicon-css3-plain colored"></i>
+                     CSS3
+                    </div>
+                    </div>
+
+                   <div class="col-md-4 mb-3">
+                    <div class="p-3 border rounded card bg-dark text-white skill-box" data-aos="fade-up">
+                      <i class="devicon-javascript-plain colored"></i>
+                       JavaScript
+                       </div>
+                      </div>
+                   <div class="col-md-4 mb-3">
+                    <div class="p-3 border rounded card bg-dark text-white skill-box" data-aos="fade-up">
+                     <i class="bi bi-display"></i>
+                      Responsive Design
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 mb-3">
+                       <div class="p-3 border rounded card bg-dark text-white skill-box" data-aos="fade-up">
+                        <i class="devicon-bootstrap-plain colored"></i>
+                          Bootstrap
+                       </div>
+                  </div>
+
+                   <div class="col-md-4 mb-3">
+                       <div class="p-3 border rounded card bg-dark text-white skill-box" data-aos="fade-up">
+                       <i class="devicon-figma-plain colored"></i>
+                           Figma
+                       </div>
+                  </div>
+                       
+                  <div class="col-md-4 mb-3">
+                    <div class="p-3 border rounded card bg-dark text-white skill-box" data-aos="fade-up">
+                      <i class="devicon-react-plain colored"></i>
+                       React
+                    </div>
+                  </div>
                 </div>
               </div>
            </section>  
             <!---project section---> 
             <section id="projects" class="py-5" data-aos="zoom-in">
     <div class="container">
-      <h2 class="text-center text-primary mb-4" data-aos="zoom-in">My Projects</h2>
+      <h1 class="text-center project mb-4" data-aos="zoom-in"><strong>My Projects</strong></h1>
+
+      <hr class="mb-5" data-aos="fade-up">
+
       <div class="row">
-        <div class="col-md-6 mb-3" data-aos="fade-up" >
+        <div class="col-md-4 mb-3" data-aos="fade-up" >
           <div class="card h-100">
             <div class="card-body">
-              <h5 class="card-title">Portfolio Website</h5>
+               <div class="card-img">
+                  <img src="./card-img.png" alt="card-img" width="80%" height="200px">
+              </div>
+              <hr>
+              <h2 class="card-title">Portfolio Website</h2>
               <p class="card-text">A personal website to showcase my skills and projects.</p>
+
+              <div class="list-unstyled">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>Bootstrap</span>
+                    </div>
+
+              <a href="https://github.com/priyasharma188/my-portfolio.git" target="_blank" class="code">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github-icon" width="20px" height="20px">
+               code
+              </a>
             </div>
           </div>
         </div>
-<div class="col-md-5  mb-3" data-aos="fade-up">
+
+<div class="col-md-4  mb-3" data-aos="fade-up">
           <div class="card p-9" data-aos="fade-up">
             <div class="card-body">
-        <h3>image gallery project</h3>
-        <p>My creative website image gallery  object showcase my code beauty. that is used to Html, CSS , JS.</p>
-        <a href="../image-gallery-project/index.html" target="_blank">image-gallery</a>
-    </div>
-</div>
+               <div class="card-img">
+                    <img src="./card-img.png" alt="card-img" width="80%" height="200px">
+               </div>
+              <hr>
+                 <h3 class="card-title">image gallery project</h3>
+                 <p>My creative website image gallery  object showcase my code beauty.</p>
+                
+                 <div class="list-unstyled">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    </div>
+                  
+                <a href="https://github.com/priyasharma188/image-gallery.git" target="_blank" class="code">
+                  <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github-icon" width="20px" height="20px">
+                code
+                </a>
+
+        <a href="https://priyasharma188.github.io/image-gallery/ "target="_blank"  class="live-demo">         
+             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                       stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+               <path d="M15 3h6v6"/>
+               <path d="M10 14 21 3"/>
+               <path d="M21 14v7h-7"/>
+               <path d="M3 10v11h11"/>
+           </svg>
+           Live Demo
+         </a>
       </div>
-      <div class="col-md-6 mb-3" data-aos="fade-up">
+   </div>
+ </div>
+      <div class="col-md-4 mb-3" data-aos="fade-up">
           <div class="card">
             <div class="card-body">
-        <h3>calculator project</h3>
-        <p>My creative website calculator project showcase my code beauty. that is used to Html, CSS , JS.</p>
-        <a href="../calculator-project/index.html" target="_blank">calculator-project</a>
+               <div class="card-img">
+                  <img src="./card-img.png" alt="card-img" width="80%" height="200px">
+              </div>
+              <hr>
+               <h3 class="card-title">calculator project</h3>
+               <p>My creative website calculator project showcase my code beauty.</p>
+
+                <div class="list-unstyled">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    </div>
+
+               <a href="https://github.com/priyasharma188/calculator.git" target="_blank" class="code">
+               <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github-icon" width="20px" height="20px">
+                code
+             </a>
+
+        <a href="https://priyasharma188.github.io/calculator/" target="_blank" class="live-demo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                       stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+               <path d="M15 3h6v6"/>
+               <path d="M10 14 21 3"/>
+               <path d="M21 14v7h-7"/>
+               <path d="M3 10v11h11"/>
+           </svg>
+           Live Demo
+        </a>
+
     </div>
 </div>
       </div>
@@ -99,27 +265,97 @@
       <div class="col-md-6 mb-3" data-aos="fade-up">
           <div class="card">
             <div class="card-body">
-        <h3>life line sos</h3>
-        <p>A safety-focused web application that sends real-time user location with one-click SOS alert using Live Location Tracking(JavaScript GeolocationAPI) , HTML , CSS</p>
-        <a href="../sos-Dashboard/dashboard.html" target="_blank">life line sos</a>
+              <div class="card-img">
+                  <img src="./card-img.png" alt="card-img" width="80%" height="200px">
+              </div>
+              <hr>
+                 <h2 class="card-title">life line sos</h2>
+                <p>A safety-focused web application that sends real-time user location with one-click SOS alert using Live Location Tracking. </p>
+                  
+                 <div class="list-unstyled">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>google Map API</span>
+                    <span>Geolocation API</span>
+                  </div>
+    
+          <a href="https://github.com/priyasharma188/lifeline-sos.git" target="_blank" class="code">
+               <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github-icon" width="20px" height="20px">
+                code  
+           </a>
+        <a href="https://priyasharma188.github.io/lifeline-sos/" target="_blank" class="live-demo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M15 3h6v6"/>
+            <path d="M10 14 21 3"/>
+            <path d="M21 14v7h-7"/>
+            <path d="M3 10v11h11"/>
+          </svg>
+          Live Demo
+        </a>
     </div>
-</div>
-      </div>
+<div>
     </div>
   </div>
-            </section> 
+  </div>
+            </section>
+            
               <!-- ===== Contact Section ===== -->
-  <section id="contact" class="py-5 bg-light" data-aos="fade-up">
-    <div class="container text-center">
-      <h2 class="text-primary mb-4">Contact Me</h2>
-      <p>📩 Email: <a href="mailto:priya91678@gmail.com">priya91678@gmail.com</a></p>
-      <p>🔗 GitHub: <a href="https://github.com/priyasharma188">github.com/priyasharma188</a></p>
-      <p>💼 LinkedIn: <a href="https://www.linkedin.com/in/priya-priya-webdeveloper">linkedin.com/in/priya-priya-webdeveloper</a></p>
+  <section id="contact" class="py-5" data-aos="fade-up">
+    <div class="contact-container">
+
+       <div class="contact-info">
+           <h1 class="mb-4">Get In Touch</h1>
+           <p>I'm always interested in hearing about new projects and opportunities. Whether you have a question or just want to say hi, feel free to reach out!👇</p>
+           <ul class="contact-list">
+               <li>
+                  <a href="mailto:priya91678@gmail.com"><i class="bi bi-envelope" width="60px" height="60px">
+               </i>
+                 </a>
+              </li>
+
+               <li>
+                  <a href="https://github.com/priyasharma188"><i class="bi bi-github" width="60px" height="60px">
+                   </i>
+                 </a>
+              </li>
+
+              <li>
+                   <a href="https://www.linkedin.com/in/priya-priya-webdeveloper"><i class="bi bi-linkedin" width="60px" height="60px"></i>
+              </a>
+              </li>
+        </ul>
+          </div>
+     <div class="contact-form mb-3">
+    <form class="mt-4" action="https://formsubmit.co/priya91678@gmail.com" method="POST">
+       
+               <label for="name" class="form-label" style="color:white">Name</label>
+               <input 
+                    type="text" 
+                    name="name"
+                     class="form-control" 
+                     placeholder="Your name"
+                      required>
+
+               <label for="email" class="form-label" style="color:white">Email</label>
+               <input type="email"
+                name="email"
+                class="form-control" placeholder="your.email@example.com" required>
+
+               <label for="message" class="form-label" style="color:white">Message</label>
+               <textarea class="form-control" name="message" rows="5" placeholder="Your message...." required></textarea> 
+
+               <button type="submit" class="btn btn-primary mt-3">Send Message</button>
+      </form>
     </div>
+    </div>
+    </section>
       <!-- ===== Footer ===== -->
-  <footer class="bg-primary text-white text-center py-3">
+       <hr>
+  <footer class="text-center py-3">
     © 2025 Priya | All Rights Reserved
   </footer>
+
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -129,6 +365,6 @@
    <script>
      AOS.init();
     </script>
-  </section>
+
 </body>
 </html> 
