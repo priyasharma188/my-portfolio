@@ -1,56 +1,67 @@
-# 👩‍💻 Priya | Web Developer Portfolio
+# 👩‍💻 Priya | Frontend Developer Portfolio
 
-)](https://github.com/priyasharma188/my-portfolio)
+Welcome to my personal **frontend developer portfolio**!
 
-Welcome to my personal **web developer portfolio**!  
-I build **responsive, modern, and interactive websites** using HTML, CSS, JavaScript, and Bootstrap.  
+I build **responsive and user-friendly websites** using HTML, CSS, Bootstrap, and JavaScript.
 
 ---
 
 ## 🌟 Features & Highlights
 
-- **Responsive Design:** Works flawlessly on desktop, tablet & mobile devices 📱💻  
-- **Hero Section:** Profile photo with typing effect for a personal touch 👋  
-- **About Me:** Passionate web developer exploring **full-stack development**  
-- **Skills Showcase:** HTML5, CSS3, JavaScript, React.js, Bootstrap 5 ⚡  
-- **Projects:** Interactive portfolio projects with images and descriptions 🎨  
-- **Contact Section:** Email, GitHub, LinkedIn links for easy connection ✉️  
+- **Responsive Design:** Works across desktop, tablet, and mobile devices 📱💻
+- **Hero Section:** Introduction with a clean and responsive design
+- **About Me:** Information about my frontend development journey and skills
+- **Skills Showcase:** HTML5, CSS3, Bootstrap 5, JavaScript, and Responsive Web Design
+- **Projects:** Practical frontend projects built using HTML, CSS, and JavaScript
+- **Contact Section:** Email, GitHub, and LinkedIn links for easy connection
 
 ---
 
 ## 🛠️ Skills
 
-| Frontend | Tools & Frameworks |
-|----------|-----------------|
-| HTML5    | Git/GitHub       |
-| CSS3     | Bootstrap 5     |
-| JavaScript | VS Code        |
-| React.js | Figma           |
+| **Frontend** | **Tools & Technologies** |
+| ------------ | ------------------------- |
+| HTML5        | Git/GitHub                |
+| CSS3         | Bootstrap 5               |
+| JavaScript   | VS Code                   |
+| Responsive Web Design | Figma (Basic)      |
 
 ---
 
 ## 📂 Projects
 
-| Project Name | Description | Link |
-|--------------|------------|------|
-| Portfolio Website | Personal portfolio to showcase my skills | [Live Demo](https://priyasharma188.github.io/my-portfolio/) |
-| image gallery project | My creative website image gallery object showcase my code beauty. that is used to Html, CSS , JS. | [GitHub](https://github.com/priyasharma188/image-gallery.git) |
-| calculator project | My creative website calculator project showcase my code beauty. that is used to Html, CSS , JS.| [GitHub](https://github.com/priyasharma188/calculator.git) |
-| life line sos | A safety-focused web application that sends real-time user location with one-click SOS alert using Live Location Tracking(JavaScript GeolocationAPI) , HTML , CSS | [ GitHub](https://github.com/priyasharma188/lifeline-sos.git) |
+| **Project Name** | **Description** | **Link** |
+| ---------------- | --------------- | -------- |
+| **Portfolio Website** | Personal responsive portfolio built to showcase my skills, projects, and frontend development work. | [Live Demo](https://priyasharma188.github.io/my-portfolio/) |
+| **Calculator** | A simple calculator built using HTML, CSS, and JavaScript to practice JavaScript logic and user interactions. | [GitHub](https://github.com/priyasharma188/calculator) |
+| **Life Line SOS** | A safety-focused web application using JavaScript Geolocation API to access the user's location for an SOS feature. | [GitHub](https://github.com/priyasharma188/lifeline-sos) |
+
 ---
 
 ## 📬 Contact & Connect
 
-- **Email:** [priyawebdev@example.com](mailto:priya91678@gmail.com)  
-- **GitHub:** [github.com/priyasharma188](https://github.com/priyasharma188)  
-- **LinkedIn:** [linkedin.com/in/priya-priya-webdeveloper](www.linkedin.com/in/priya-priya-webdeveloper) 
+- **Email:** [priya91678@gmail.com](mailto:priya91678@gmail.com)
+- **GitHub:** [github.com/priyasharma188](https://github.com/priyasharma188)
+- **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/priya-priya-webdeveloper/)
 
 ---
 
-## 🎨 Why This Portfolio Stands Out
+## 🎨 About This Portfolio
 
-- Modern and minimalistic design ✨  
-- Fully responsive with **Bootstrap 5** 🔹  
-- Highlights skills & projects professionally  
-- Perfect to share on **GitHub, LinkedIn, or resume**  
-- Makes a great first impression for internships or hackathons 💼  
+- Clean and responsive design ✨
+- Built with **HTML, CSS, Bootstrap 5, and JavaScript**
+- Responsive layout for different screen sizes
+- Includes practical frontend projects
+- Designed to showcase my skills and development work
+- Suitable for sharing with recruiters, companies, and on my resume
+
+---
+
+## 🚀 Technologies Used
+
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript
+- Git & GitHub
+- VS Code
